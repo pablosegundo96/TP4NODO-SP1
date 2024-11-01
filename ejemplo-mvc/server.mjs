@@ -24,4 +24,4 @@ app.delete('/tareas/:id', eliminarTareaController);
 app.listen(PORT,() =>{
      console.log(`Servidor corriendo en http://localhost:${PORT}`);
     
-})
+});
